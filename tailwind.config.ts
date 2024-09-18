@@ -9,9 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        Red: "#db2d2e",
+        White: "#ffffff",
+        Black: "#000000",
+        Orange: "#db2d2e",
+        WhiteGray: "#bfa37c",
+        Blur: "#f7f5f2",
       },
+    },
+    screens: {
+      xs: "480px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
     },
   },
   plugins: [],
